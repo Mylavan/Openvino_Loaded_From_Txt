@@ -1,4 +1,4 @@
-# Openvino_Async
+# Openvino_Loaded_From_.txt File
 Async() of Openvino allows multithreading of inference , In this repo it is explained how it is done
 
 StartAsync() and Wait() are methods in OpenVINO C++ API that allow you to perform asynchronous inference.

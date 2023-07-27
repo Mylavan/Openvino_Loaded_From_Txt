@@ -3,6 +3,8 @@
 3.Open cmd Prompt from this directory
 4.choose mo.exe and give the arguments , it should look like below 
 
-mo.exe  --input_model OBFetalHeart_AutoLabel_3VT_from_nnUNet_pytorch.onnx
+python mo.exe  --input_model OBFetalHeart_AutoLabel_3VT_from_nnUNet_pytorch.onnx
 
 5.It will create .bin and .xml of same name as onnx .
+
+Note :: You should have Python Version 3.8 installed and the model conversion workers only with Python 3.8 
